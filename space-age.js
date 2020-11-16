@@ -20,5 +20,3 @@ export const age = (planet, time) => {
   return parseFloat((time/year).toFixed(2));
   
 };
-
-
