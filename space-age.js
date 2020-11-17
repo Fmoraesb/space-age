@@ -17,6 +17,6 @@ const ORBITAL_PERIOD = {
 
 export const age = (planet, time) => {
   let year = ORBITAL_PERIOD[planet] * TIME_ON_EARTH;
-  return parseFloat((time/year).toFixed(2));
+  return Number((time/year).toFixed(2));
   
 };
